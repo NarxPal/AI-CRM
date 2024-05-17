@@ -1,0 +1,31 @@
+.sidebar_div {
+  @apply p-4 w-1/6 h-full border-r border-dashbboard-hover_gray;
+}
+
+.sidebar {
+  @apply h-full;
+}
+
+.sidebar_inner {
+  @apply justify-between h-full flex-col flex;
+}
+
+.logo_categories {
+  @apply flex flex-col;
+}
+
+.logo_div {
+  @apply text-3xl font-extrabold py-5 px-3;
+}
+
+.li_div {
+  @apply mt-7;
+}
+
+.li_el {
+  @apply py-5 px-3 hover:bg-dashbboard-hover_gray  m-1 rounded-md font-medium cursor-pointer flex flex-row;
+}
+
+.btm_btn {
+  @apply py-5 px-3 font-semibold rounded-md flex cursor-pointer hover:bg-dashbboard-hover_gray;
+}

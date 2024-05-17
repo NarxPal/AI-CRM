@@ -1,0 +1,7 @@
+.container{
+    @apply flex flex-row h-screen
+}
+
+.dashboard_div{
+    @apply w-full p-6 m-6 bg-dashbboard-hover_gray rounded-md
+}
